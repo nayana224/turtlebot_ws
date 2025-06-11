@@ -1,0 +1,4 @@
+[console_scripts]
+cmd_vel_odom_publisher = my_robot_controller.cmd_vel_odom_publisher:main
+cmd_vel_to_joints = my_robot_controller.cmd_vel_to_joints:main
+

@@ -1,0 +1,28 @@
+
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz/Grid
+      Name: Grid
+    - Class: rviz/RobotModel
+      Name: RobotModel
+      Robot Description: robot_description
+    - Class: rviz/TF
+      Name: TF
+  Global Options:
+    Fixed Frame: 1st_floor
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+    - Class: rviz/Measure
+    - Class: rviz/FocusCamera
+    - Class: rviz/PublishPoint
+Views:
+  Current:
+    Class: rviz/Orbit
+    Target Frame: 1st_floor

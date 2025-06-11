@@ -1,0 +1,25 @@
+[0.937s] Invoking command in '/home/pyo/Workspace/turtlebot_ws/src/my_robot_controller': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/build install --record /home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.172s] running egg_info
+[1.172s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.172s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.172s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.173s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.173s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.174s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.175s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.175s] running build
+[1.175s] running build_py
+[1.175s] copying my_robot_controller/cmd_vel_odom_publisher.py -> /home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.175s] running install
+[1.176s] running install_lib
+[1.176s] copying /home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/build/lib/my_robot_controller/cmd_vel_odom_publisher.py -> /home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.177s] byte-compiling /home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/cmd_vel_odom_publisher.py to cmd_vel_odom_publisher.cpython-310.pyc
+[1.178s] running install_data
+[1.178s] running install_egg_info
+[1.179s] removing '/home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.180s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.180s] running install_scripts
+[1.203s] Installing cmd_vel_odom_publisher script to /home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/my_robot_controller
+[1.203s] Installing cmd_vel_to_joints script to /home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/my_robot_controller
+[1.203s] writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/install.log'
+[1.239s] Invoked command in '/home/pyo/Workspace/turtlebot_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/build install --record /home/pyo/Workspace/turtlebot_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

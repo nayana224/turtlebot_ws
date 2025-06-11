@@ -1,0 +1,6 @@
+Invoking command in '/home/pyo/Workspace/turtlebot_ws/build/keyboard_sim': /usr/bin/cmake /home/pyo/Workspace/turtlebot_ws/src/keyboard_sim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pyo/Workspace/turtlebot_ws/install/keyboard_sim
+Invoked command in '/home/pyo/Workspace/turtlebot_ws/build/keyboard_sim' returned '0': /usr/bin/cmake /home/pyo/Workspace/turtlebot_ws/src/keyboard_sim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pyo/Workspace/turtlebot_ws/install/keyboard_sim
+Invoking command in '/home/pyo/Workspace/turtlebot_ws/build/keyboard_sim': /usr/bin/cmake --build /home/pyo/Workspace/turtlebot_ws/build/keyboard_sim -- -j18 -l18
+Invoked command in '/home/pyo/Workspace/turtlebot_ws/build/keyboard_sim' returned '0': /usr/bin/cmake --build /home/pyo/Workspace/turtlebot_ws/build/keyboard_sim -- -j18 -l18
+Invoking command in '/home/pyo/Workspace/turtlebot_ws/build/keyboard_sim': /usr/bin/cmake --install /home/pyo/Workspace/turtlebot_ws/build/keyboard_sim
+Invoked command in '/home/pyo/Workspace/turtlebot_ws/build/keyboard_sim' returned '0': /usr/bin/cmake --install /home/pyo/Workspace/turtlebot_ws/build/keyboard_sim
