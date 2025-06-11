@@ -1,0 +1,37 @@
+[0.518s] Invoking command in '/home/pyo/Workspace/turtlebot_ws/src/encoder_uart_publisher': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_uart_publisher build --build-base /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build install --record /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/install.log --single-version-externally-managed install_data
+[0.705s] running egg_info
+[0.705s] creating ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info
+[0.705s] writing ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/PKG-INFO
+[0.705s] writing dependency_links to ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/dependency_links.txt
+[0.706s] writing entry points to ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/entry_points.txt
+[0.706s] writing requirements to ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/requires.txt
+[0.706s] writing top-level names to ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/top_level.txt
+[0.706s] writing manifest file '../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/SOURCES.txt'
+[0.707s] reading manifest file '../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/SOURCES.txt'
+[0.707s] writing manifest file '../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info/SOURCES.txt'
+[0.707s] running build
+[0.707s] running build_py
+[0.708s] creating /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build
+[0.708s] creating /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build/lib
+[0.708s] creating /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build/lib/encoder_uart_publisher
+[0.708s] copying encoder_uart_publisher/__init__.py -> /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build/lib/encoder_uart_publisher
+[0.708s] copying encoder_uart_publisher/encoder_node.py -> /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build/lib/encoder_uart_publisher
+[0.708s] running install
+[0.708s] running install_lib
+[0.708s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages/encoder_uart_publisher
+[0.709s] copying /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build/lib/encoder_uart_publisher/__init__.py -> /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages/encoder_uart_publisher
+[0.709s] copying /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build/lib/encoder_uart_publisher/encoder_node.py -> /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages/encoder_uart_publisher
+[0.709s] byte-compiling /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages/encoder_uart_publisher/__init__.py to __init__.cpython-310.pyc
+[0.709s] byte-compiling /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages/encoder_uart_publisher/encoder_node.py to encoder_node.cpython-310.pyc
+[0.709s] running install_data
+[0.709s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/share/ament_index
+[0.709s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/share/ament_index/resource_index
+[0.709s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/share/ament_index/resource_index/packages
+[0.710s] copying resource/encoder_uart_publisher -> /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/share/ament_index/resource_index/packages
+[0.710s] copying package.xml -> /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/share/encoder_uart_publisher
+[0.710s] running install_egg_info
+[0.711s] Copying ../../build/encoder_uart_publisher/encoder_uart_publisher.egg-info to /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages/encoder_uart_publisher-0.0.0-py3.10.egg-info
+[0.711s] running install_scripts
+[0.728s] Installing encoder_node script to /home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/encoder_uart_publisher
+[0.728s] writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/install.log'
+[0.748s] Invoked command in '/home/pyo/Workspace/turtlebot_ws/src/encoder_uart_publisher' returned '0': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_uart_publisher build --build-base /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/build install --record /home/pyo/Workspace/turtlebot_ws/build/encoder_uart_publisher/install.log --single-version-externally-managed install_data

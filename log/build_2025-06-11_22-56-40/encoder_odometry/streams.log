@@ -1,0 +1,20 @@
+[0.756s] Invoking command in '/home/pyo/Workspace/turtlebot_ws/src/encoder_odometry': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_odometry build --build-base /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build install --record /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/install.log --single-version-externally-managed install_data
+[1.004s] running egg_info
+[1.004s] writing ../../build/encoder_odometry/encoder_odometry.egg-info/PKG-INFO
+[1.013s] writing dependency_links to ../../build/encoder_odometry/encoder_odometry.egg-info/dependency_links.txt
+[1.013s] writing entry points to ../../build/encoder_odometry/encoder_odometry.egg-info/entry_points.txt
+[1.014s] writing requirements to ../../build/encoder_odometry/encoder_odometry.egg-info/requires.txt
+[1.014s] writing top-level names to ../../build/encoder_odometry/encoder_odometry.egg-info/top_level.txt
+[1.015s] reading manifest file '../../build/encoder_odometry/encoder_odometry.egg-info/SOURCES.txt'
+[1.016s] writing manifest file '../../build/encoder_odometry/encoder_odometry.egg-info/SOURCES.txt'
+[1.016s] running build
+[1.017s] running build_py
+[1.017s] running install
+[1.018s] running install_lib
+[1.019s] running install_data
+[1.020s] running install_egg_info
+[1.022s] removing '/home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry-0.0.0-py3.10.egg-info' (and everything under it)
+[1.022s] Copying ../../build/encoder_odometry/encoder_odometry.egg-info to /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry-0.0.0-py3.10.egg-info
+[1.022s] running install_scripts
+[1.044s] writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/install.log'
+[1.069s] Invoked command in '/home/pyo/Workspace/turtlebot_ws/src/encoder_odometry' returned '0': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_odometry build --build-base /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build install --record /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/install.log --single-version-externally-managed install_data

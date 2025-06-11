@@ -1,0 +1,413 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape document_id: adf8b6baeb682d7ae401b53c -->
+<robot name="turtlebot">
+  <!-- Link 1st_floor -->
+  <link name="1st_floor">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1 -->
+    <visual>
+      <origin xyz="-0.142876 0.0158254 -0.0544899" rpy="1.5708 -0 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="0 0 0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.142876 0.0158254 -0.0544899" rpy="1.5708 -0 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part base_link -->
+    <visual>
+      <origin xyz="-0.0608549 -0.0244515 -0.0559899" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/base_link.stl"/>
+      </geometry>
+      <material name="base_link_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0608549 -0.0244515 -0.0559899" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/base_link.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_2 -->
+    <visual>
+      <origin xyz="-0.0608549 -0.0244515 -0.00298989" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__2.stl"/>
+      </geometry>
+      <material name="part_1_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0608549 -0.0244515 -0.00298989" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_3 -->
+    <visual>
+      <origin xyz="0.0111451 0.0585485 -0.0544899" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__3.stl"/>
+      </geometry>
+      <material name="part_1_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0111451 0.0585485 -0.0544899" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_4 -->
+    <visual>
+      <origin xyz="0.0111451 -0.107452 -0.0544899" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__3.stl"/>
+      </geometry>
+      <material name="part_1_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0111451 -0.107452 -0.0544899" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_5 -->
+    <visual>
+      <origin xyz="0.0306451 -0.0244515 -0.0504899" rpy="-2.6749e-32 1.73472e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__4.stl"/>
+      </geometry>
+      <material name="part_1_5_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0306451 -0.0244515 -0.0504899" rpy="-2.6749e-32 1.73472e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_6 -->
+    <visual>
+      <origin xyz="-0.0889437 -0.0647285 -0.0544899" rpy="1.5708 -0 2.77556e-17"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_6_material">
+        <color rgba="0 0 0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0889437 -0.0647285 -0.0544899" rpy="1.5708 -0 2.77556e-17"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part shaft_coupler__jgb37_520 -->
+    <visual>
+      <origin xyz="-0.11586 0.0631585 -0.0346649" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/shaft_coupler__jgb37_520.stl"/>
+      </geometry>
+      <material name="shaft_coupler__jgb37_520_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11586 0.0631585 -0.0346649" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/shaft_coupler__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part geared_body__motor__jgb37_520 -->
+    <visual>
+      <origin xyz="-0.11586 0.0631585 -0.0276649" rpy="-1.5708 -2.55611e-48 1.87822e-16"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/geared_body__motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="geared_body__motor__jgb37_520_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11586 0.0631585 -0.0276649" rpy="-1.5708 -2.55611e-48 1.87822e-16"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/geared_body__motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part plastic_cover__dc_motor__jgb37_520 -->
+    <visual>
+      <origin xyz="-0.11586 0.0146585 -0.0276649" rpy="-1.5708 -8.19577e-17 -1.05472e-17"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/plastic_cover__dc_motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="plastic_cover__dc_motor__jgb37_520_material">
+        <color rgba="0.501961 0.501961 0.501961 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11586 0.0146585 -0.0276649" rpy="-1.5708 -8.19577e-17 -1.05472e-17"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/plastic_cover__dc_motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part coupling_bracket__geared_body_to_dc_motor__jgb37_520 -->
+    <visual>
+      <origin xyz="-0.11586 0.0381585 -0.0276649" rpy="-1.5708 -8.19577e-17 -1.05472e-17"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/coupling_bracket__geared_body_to_dc_motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="coupling_bracket__geared_body_to_dc_motor__jgb37_520_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11586 0.0381585 -0.0276649" rpy="-1.5708 -8.19577e-17 -1.05472e-17"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/coupling_bracket__geared_body_to_dc_motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_shaft__jgb37_520 -->
+    <visual>
+      <origin xyz="-0.11586 0.0631585 -0.0346649" rpy="1.5708 7.13592e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/motor_shaft__jgb37_520.stl"/>
+      </geometry>
+      <material name="motor_shaft__jgb37_520_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11586 0.0631585 -0.0346649" rpy="1.5708 7.13592e-17 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/motor_shaft__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dc_motor__jgb37_520 -->
+    <visual>
+      <origin xyz="-0.11586 0.0341585 -0.0276649" rpy="1.5708 8.19577e-17 3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/dc_motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="dc_motor__jgb37_520_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11586 0.0341585 -0.0276649" rpy="1.5708 8.19577e-17 3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/dc_motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part shaft_coupler__jgb37_520_2 -->
+    <visual>
+      <origin xyz="-0.11596 -0.112062 -0.0346649" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/shaft_coupler__jgb37_520.stl"/>
+      </geometry>
+      <material name="shaft_coupler__jgb37_520_2_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11596 -0.112062 -0.0346649" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/shaft_coupler__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part geared_body__motor__jgb37_520_2 -->
+    <visual>
+      <origin xyz="-0.11596 -0.112062 -0.0276649" rpy="-1.5708 -9.24446e-33 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/geared_body__motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="geared_body__motor__jgb37_520_2_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11596 -0.112062 -0.0276649" rpy="-1.5708 -9.24446e-33 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/geared_body__motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part plastic_cover__dc_motor__jgb37_520_2 -->
+    <visual>
+      <origin xyz="-0.11596 -0.0635615 -0.0276649" rpy="-1.5708 2.95875e-16 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/plastic_cover__dc_motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="plastic_cover__dc_motor__jgb37_520_2_material">
+        <color rgba="0.501961 0.501961 0.501961 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11596 -0.0635615 -0.0276649" rpy="-1.5708 2.95875e-16 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/plastic_cover__dc_motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part coupling_bracket__geared_body_to_dc_motor__jgb37_520_2 -->
+    <visual>
+      <origin xyz="-0.11596 -0.0870615 -0.0276649" rpy="-1.5708 2.95875e-16 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/coupling_bracket__geared_body_to_dc_motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="coupling_bracket__geared_body_to_dc_motor__jgb37_520_2_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11596 -0.0870615 -0.0276649" rpy="-1.5708 2.95875e-16 -3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/coupling_bracket__geared_body_to_dc_motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_shaft__jgb37_520_2 -->
+    <visual>
+      <origin xyz="-0.11596 -0.112062 -0.0346649" rpy="1.5708 8.62817e-32 3.20134e-16"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/motor_shaft__jgb37_520.stl"/>
+      </geometry>
+      <material name="motor_shaft__jgb37_520_2_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11596 -0.112062 -0.0346649" rpy="1.5708 8.62817e-32 3.20134e-16"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/motor_shaft__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part dc_motor__jgb37_520_2 -->
+    <visual>
+      <origin xyz="-0.11596 -0.0830615 -0.0276649" rpy="1.5708 1.84889e-32 3.20134e-16"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/dc_motor__jgb37_520.stl"/>
+      </geometry>
+      <material name="dc_motor__jgb37_520_2_material">
+        <color rgba="0.792157 0.819608 0.933333 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11596 -0.0830615 -0.0276649" rpy="1.5708 1.84889e-32 3.20134e-16"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/dc_motor__jgb37_520.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link wheel_assembly -->
+  <link name="wheel_assembly">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_7 -->
+    <visual>
+      <origin xyz="-1.38778e-17 0 -0.0361" rpy="-5.55112e-17 5.55112e-17 1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__5.stl"/>
+      </geometry>
+      <material name="part_1_7_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 0 -0.0361" rpy="-5.55112e-17 5.55112e-17 1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_8 -->
+    <visual>
+      <origin xyz="-1.38778e-17 2.08167e-17 -0.0106" rpy="-2.53009e-17 5.55112e-17 1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_8_material">
+        <color rgba="0.290196 0.290196 0.290196 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 2.08167e-17 -0.0106" rpy="-2.53009e-17 5.55112e-17 1.5708"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__6.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from 1st_floor to wheel_assembly -->
+  <joint name="left_wheel" type="continuous">
+    <origin xyz="-0.11586 0.0726585 -0.0346649" rpy="-1.5708 7.13592e-17 -3.14159"/>
+    <parent link="1st_floor"/>
+    <child link="wheel_assembly"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+  <!-- Link wheel_assembly_2 -->
+  <link name="wheel_assembly_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_9 -->
+    <visual>
+      <origin xyz="0 0 -0.0361" rpy="0 -2.59158e-46 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__5.stl"/>
+      </geometry>
+      <material name="part_1_9_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0361" rpy="0 -2.59158e-46 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_10 -->
+    <visual>
+      <origin xyz="0 -6.93889e-18 -0.0106" rpy="3.95517e-16 6.11567e-16 -1.1402e-30"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_10_material">
+        <color rgba="0.290196 0.290196 0.290196 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -6.93889e-18 -0.0106" rpy="3.95517e-16 6.11567e-16 -1.1402e-30"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/urdf/assets/part_1__6.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from 1st_floor to wheel_assembly_2 -->
+  <joint name="right_wheel" type="continuous">
+    <origin xyz="-0.11596 -0.121562 -0.0346649" rpy="-1.5708 6.22477e-31 6.11567e-16"/>
+    <parent link="1st_floor"/>
+    <child link="wheel_assembly_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+</robot>

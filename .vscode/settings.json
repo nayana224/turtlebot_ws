@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages",
+        "/home/pyo/opx_robot_ws/install/dynamixel_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pyo/Workspace/turtlebot_ws/install/encoder_uart_publisher/lib/python3.10/site-packages",
+        "/home/pyo/opx_robot_ws/install/dynamixel_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

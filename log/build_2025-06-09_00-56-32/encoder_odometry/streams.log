@@ -1,0 +1,36 @@
+[0.448s] Invoking command in '/home/pyo/Workspace/turtlebot_ws/src/encoder_odometry': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_odometry build --build-base /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build install --record /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/install.log --single-version-externally-managed install_data
+[0.597s] running egg_info
+[0.597s] creating ../../build/encoder_odometry/encoder_odometry.egg-info
+[0.597s] writing ../../build/encoder_odometry/encoder_odometry.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/encoder_odometry/encoder_odometry.egg-info/dependency_links.txt
+[0.598s] writing entry points to ../../build/encoder_odometry/encoder_odometry.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/encoder_odometry/encoder_odometry.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/encoder_odometry/encoder_odometry.egg-info/top_level.txt
+[0.598s] writing manifest file '../../build/encoder_odometry/encoder_odometry.egg-info/SOURCES.txt'
+[0.599s] reading manifest file '../../build/encoder_odometry/encoder_odometry.egg-info/SOURCES.txt'
+[0.599s] writing manifest file '../../build/encoder_odometry/encoder_odometry.egg-info/SOURCES.txt'
+[0.599s] running build
+[0.599s] running build_py
+[0.599s] creating /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build
+[0.599s] creating /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build/lib
+[0.599s] creating /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build/lib/encoder_odometry
+[0.600s] copying encoder_odometry/__init__.py -> /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build/lib/encoder_odometry
+[0.600s] copying encoder_odometry/encoder_odom_node.py -> /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build/lib/encoder_odometry
+[0.600s] running install
+[0.600s] running install_lib
+[0.600s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry
+[0.600s] copying /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build/lib/encoder_odometry/__init__.py -> /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry
+[0.600s] copying /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build/lib/encoder_odometry/encoder_odom_node.py -> /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry
+[0.601s] byte-compiling /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry/__init__.py to __init__.cpython-310.pyc
+[0.601s] byte-compiling /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry/encoder_odom_node.py to encoder_odom_node.cpython-310.pyc
+[0.601s] running install_data
+[0.602s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/share/ament_index
+[0.602s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/share/ament_index/resource_index
+[0.602s] creating /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/share/ament_index/resource_index/packages
+[0.602s] copying resource/encoder_odometry -> /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/share/ament_index/resource_index/packages
+[0.602s] copying package.xml -> /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/share/encoder_odometry
+[0.602s] running install_egg_info
+[0.603s] Copying ../../build/encoder_odometry/encoder_odometry.egg-info to /home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages/encoder_odometry-0.0.0-py3.10.egg-info
+[0.603s] running install_scripts
+[0.616s] writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/install.log'
+[0.632s] Invoked command in '/home/pyo/Workspace/turtlebot_ws/src/encoder_odometry' returned '0': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/encoder_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_odometry build --build-base /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/build install --record /home/pyo/Workspace/turtlebot_ws/build/encoder_odometry/install.log --single-version-externally-managed install_data

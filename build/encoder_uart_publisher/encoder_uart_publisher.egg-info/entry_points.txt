@@ -1,0 +1,3 @@
+[console_scripts]
+encoder_node = encoder_uart_publisher.encoder_node:main
+
