@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/bridge_uart/bridge_uart.egg-info/PKG-INFO
+writing dependency_links to ../../build/bridge_uart/bridge_uart.egg-info/dependency_links.txt
+writing entry points to ../../build/bridge_uart/bridge_uart.egg-info/entry_points.txt
+writing requirements to ../../build/bridge_uart/bridge_uart.egg-info/requires.txt
+writing top-level names to ../../build/bridge_uart/bridge_uart.egg-info/top_level.txt
+reading manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+writing manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bridge_uart/pose_uart_to_odom.py -> /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart
+running install
+running install_lib
+copying /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart/pose_uart_to_odom.py -> /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart
+byte-compiling /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart/pose_uart_to_odom.py to pose_uart_to_odom.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/bridge_uart/bridge_uart.egg-info to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cmdvel_to_uart script to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/bridge_uart
+Installing pose_uart_to_odom script to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/bridge_uart
+writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/bridge_uart/install.log'

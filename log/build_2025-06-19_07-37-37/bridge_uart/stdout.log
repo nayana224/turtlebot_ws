@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/bridge_uart/bridge_uart.egg-info
+writing ../../build/bridge_uart/bridge_uart.egg-info/PKG-INFO
+writing dependency_links to ../../build/bridge_uart/bridge_uart.egg-info/dependency_links.txt
+writing entry points to ../../build/bridge_uart/bridge_uart.egg-info/entry_points.txt
+writing requirements to ../../build/bridge_uart/bridge_uart.egg-info/requires.txt
+writing top-level names to ../../build/bridge_uart/bridge_uart.egg-info/top_level.txt
+writing manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+reading manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+writing manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build
+creating /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib
+creating /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart
+copying bridge_uart/cmdvel_to_uart.py -> /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart
+copying bridge_uart/__init__.py -> /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart
+running install
+running install_lib
+creating /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart
+copying /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart/cmdvel_to_uart.py -> /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart
+copying /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart/__init__.py -> /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart
+byte-compiling /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart/cmdvel_to_uart.py to cmdvel_to_uart.cpython-310.pyc
+byte-compiling /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/share/ament_index
+creating /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/share/ament_index/resource_index
+creating /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/share/ament_index/resource_index/packages
+copying resource/bridge_uart -> /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/share/ament_index/resource_index/packages
+copying package.xml -> /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/share/bridge_uart
+running install_egg_info
+Copying ../../build/bridge_uart/bridge_uart.egg-info to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cmdvel_to_uart script to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/bridge_uart
+writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/bridge_uart/install.log'

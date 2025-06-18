@@ -1,0 +1,25 @@
+[0.792s] Invoking command in '/home/pyo/Workspace/turtlebot_ws/src/bridge_uart': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/bridge_uart/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bridge_uart build --build-base /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build install --record /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/install.log --single-version-externally-managed install_data
+[0.934s] running egg_info
+[0.935s] writing ../../build/bridge_uart/bridge_uart.egg-info/PKG-INFO
+[0.935s] writing dependency_links to ../../build/bridge_uart/bridge_uart.egg-info/dependency_links.txt
+[0.935s] writing entry points to ../../build/bridge_uart/bridge_uart.egg-info/entry_points.txt
+[0.935s] writing requirements to ../../build/bridge_uart/bridge_uart.egg-info/requires.txt
+[0.935s] writing top-level names to ../../build/bridge_uart/bridge_uart.egg-info/top_level.txt
+[0.936s] reading manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+[0.937s] writing manifest file '../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt'
+[0.937s] running build
+[0.937s] running build_py
+[0.937s] copying bridge_uart/pose_uart_to_odom.py -> /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart
+[0.937s] running install
+[0.938s] running install_lib
+[0.938s] copying /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build/lib/bridge_uart/pose_uart_to_odom.py -> /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart
+[0.938s] byte-compiling /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart/pose_uart_to_odom.py to pose_uart_to_odom.cpython-310.pyc
+[0.939s] running install_data
+[0.939s] running install_egg_info
+[0.940s] removing '/home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart-0.0.0-py3.10.egg-info' (and everything under it)
+[0.940s] Copying ../../build/bridge_uart/bridge_uart.egg-info to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages/bridge_uart-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.957s] Installing cmdvel_to_uart script to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/bridge_uart
+[0.957s] Installing pose_uart_to_odom script to /home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/bridge_uart
+[0.957s] writing list of installed files to '/home/pyo/Workspace/turtlebot_ws/build/bridge_uart/install.log'
+[0.989s] Invoked command in '/home/pyo/Workspace/turtlebot_ws/src/bridge_uart' returned '0': PYTHONPATH=/home/pyo/Workspace/turtlebot_ws/build/bridge_uart/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pyo/Workspace/turtlebot_ws/install/bridge_uart/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bridge_uart build --build-base /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/build install --record /home/pyo/Workspace/turtlebot_ws/build/bridge_uart/install.log --single-version-externally-managed install_data

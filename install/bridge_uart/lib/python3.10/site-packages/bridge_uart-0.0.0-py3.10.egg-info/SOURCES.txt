@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/bridge_uart/bridge_uart.egg-info/PKG-INFO
+../../build/bridge_uart/bridge_uart.egg-info/SOURCES.txt
+../../build/bridge_uart/bridge_uart.egg-info/dependency_links.txt
+../../build/bridge_uart/bridge_uart.egg-info/entry_points.txt
+../../build/bridge_uart/bridge_uart.egg-info/requires.txt
+../../build/bridge_uart/bridge_uart.egg-info/top_level.txt
+../../build/bridge_uart/bridge_uart.egg-info/zip-safe
+bridge_uart/__init__.py
+bridge_uart/cmdvel_to_uart.py
+bridge_uart/pose_uart_to_odom.py
+resource/bridge_uart
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,4 @@
+[console_scripts]
+cmdvel_to_uart = bridge_uart.cmdvel_to_uart:main
+pose_uart_to_odom = bridge_uart.pose_uart_to_odom:main
+
